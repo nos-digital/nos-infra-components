@@ -25,7 +25,6 @@ resources:
 - kube-system_rbac.authorization.k8s.io_v1_rolebinding_cert-manager:leaderelection.yaml
 - kube-system_rbac.authorization.k8s.io_v1_role_cert-manager-cainjector:leaderelection.yaml
 - kube-system_rbac.authorization.k8s.io_v1_role_cert-manager:leaderelection.yaml
-- kustomization.yaml
 - rbac.authorization.k8s.io_v1_clusterrolebinding_cert-manager-cainjector.yaml
 - rbac.authorization.k8s.io_v1_clusterrolebinding_cert-manager-controller-approve:cert-manager-io.yaml
 - rbac.authorization.k8s.io_v1_clusterrolebinding_cert-manager-controller-certificatesigningrequests.yaml
