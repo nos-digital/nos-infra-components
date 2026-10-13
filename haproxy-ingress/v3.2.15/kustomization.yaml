@@ -1,0 +1,11 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+resources:
+- apps_v1_daemonset_haproxy-kubernetes-ingress.yaml
+- rbac.authorization.k8s.io_v1_clusterrolebinding_haproxy-kubernetes-ingress.yaml
+- rbac.authorization.k8s.io_v1_clusterrole_haproxy-kubernetes-ingress.yaml
+- v1_configmap_haproxy-kubernetes-ingress.yaml
+- v1_namespace_haproxy-controller.yaml
+- v1_serviceaccount_haproxy-kubernetes-ingress.yaml
+- v1_service_haproxy-kubernetes-ingress.yaml
